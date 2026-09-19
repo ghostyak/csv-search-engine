@@ -1,1 +1,50 @@
-# csv-search-engine
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ghostyak/csv-search-engine/main/assets/app-icon.png" width="96" height="96" alt="CSV Search Engine 아이콘">
+</p>
+
+# CSV Search Engine
+
+**CSV와 Excel 파일에서 원하는 데이터를 찾는 Windows용 프로그램입니다.**
+
+파일을 열고 열별로 검색하거나, 정렬하고, 같은 값끼리 묶어 볼 수 있습니다.
+Excel 설치 없이 사용할 수 있으며, 원본 파일을 수정하거나 외부로 업로드하지 않습니다.
+
+**[Windows 설치 파일 다운로드](https://github.com/ghostyak/csv-search-engine/releases)**
+
+## 설치하기
+
+1. 위 다운로드 링크에서 원하는 버전의 **Assets(첨부 파일)**를 펼칩니다.
+2. `csv-search-engine-버전-setup.exe` 파일을 내려받아 실행합니다.
+3. 설치를 마친 뒤 시작 메뉴에서 **CSV Search Engine**을 실행합니다.
+
+Windows 64비트용입니다. `Source code (zip)`과 `Source code (tar.gz)`는 설치 파일이 아닙니다.
+설치 파일이 보이지 않으면 아직 해당 버전의 배포 파일이 등록되지 않은 상태입니다.
+
+## 이렇게 사용하세요
+
+1. **파일 → 열기** 또는 **Ctrl+O**로 CSV·XLS·XLSX 파일을 선택합니다. 파일을 창에 끌어 놓아도 됩니다.
+2. **열 제목 아래 검색란**에 찾을 내용을 입력합니다. 여러 열에 입력하면 모든 조건에 맞는 행을 보여 줍니다.
+3. **열 제목을 클릭**하면 정렬하고, **행을 클릭**하면 해당 행의 전체 내용을 확인할 수 있습니다.
+
+Excel 파일은 표 아래의 **시트 탭**으로 전환합니다.
+CSV의 한글이 깨져 보이면 **설정 → CSV 인코딩**에서 알맞은 인코딩을 선택하세요.
+사용 중 도움이 필요하면 **F1**을 누르세요.
+
+## 주요 기능
+
+- **열별 검색·필터** — 포함, 제외, 정확히 일치, 빈값 등으로 찾기
+- **정렬·그룹화** — 열별 정렬과 같은 값끼리 묶어 보기
+- **표 탐색** — 연속 스크롤, 열 숨기기, 열 너비 조절, 행 상세 보기
+- **다국어 지원** — 한국어·영어·일본어·중국어 UI와 여러 CSV 인코딩
+
+## 알아두세요
+
+- 조회·검색용 도구입니다. 데이터 편집과 검색 결과 내보내기는 아직 지원하지 않습니다.
+- 파일을 처음 열거나 새로운 열을 검색할 때 준비 시간이 걸릴 수 있습니다. 검색용 캐시를 저장하므로 디스크 여유 공간도 필요합니다.
+- XLS 파일은 최대 **32 MiB**까지 지원합니다. Excel 서식·차트·매크로 실행과 수식 재계산은 지원하지 않습니다.
+- 큰 파일의 처리 시간은 파일 내용과 PC 성능에 따라 달라집니다. CSV 10 GiB·50 GiB 성능은 아직 전체 검증하지 않았습니다.
+
+## 더 알아보기
+
+- [상세 사용법·지원 범위·소스 빌드 방법](https://github.com/ghostyak/csv-search-engine/blob/main/USER_GUIDE.md)
+- [버그 제보·기능 제안](https://github.com/ghostyak/csv-search-engine/issues) — 사용 버전과 오류 상황을 알려 주세요. 원본 데이터나 개인정보는 첨부하지 마세요.
