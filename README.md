@@ -46,5 +46,4 @@ CSV의 한글이 깨져 보이면 **설정 → CSV 인코딩**에서 알맞은 �
 
 ## 더 알아보기
 
-- [상세 사용법·지원 범위·소스 빌드 방법](https://github.com/ghostyak/csv-search-engine/blob/main/USER_GUIDE.md)
 - [버그 제보·기능 제안](https://github.com/ghostyak/csv-search-engine/issues) — 사용 버전과 오류 상황을 알려 주세요. 원본 데이터나 개인정보는 첨부하지 마세요.
